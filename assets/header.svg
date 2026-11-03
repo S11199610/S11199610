@@ -1,0 +1,41 @@
+<svg width="400" height="400" viewBox="-200 -200 400 400"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="sphereGlow">
+      <stop offset="0%" stop-color="#80dfff"/>
+      <stop offset="100%" stop-color="#0066cc"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sphere outline -->
+  <circle cx="0" cy="0" r="120"
+          fill="url(#sphereGlow)"
+          fill-opacity="0.15"
+          stroke="#4da6ff"
+          stroke-width="2"/>
+
+  <!-- Rotating grid -->
+  <g stroke="#4da6ff" stroke-width="1.2" fill="none">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0"
+      to="360"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+    <!-- Longitude lines -->
+    <ellipse rx="120" ry="30"/>
+    <ellipse rx="120" ry="60"/>
+    <ellipse rx="120" ry="90"/>
+
+    <!-- Latitude lines -->
+    <ellipse rx="30" ry="120"/>
+    <ellipse rx="60" ry="120"/>
+    <ellipse rx="90" ry="120"/>
+
+  </g>
+
+</svg>
