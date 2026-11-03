@@ -1,3 +1,4 @@
 ![Header](assets/header.svg)
-Pursuit of Knowledge
 
+
+For the Pursuit of Knowledge
