@@ -1,3 +1,2 @@
 ![Header](assets/header.svg)
-ursuit  of Knowledge
-P
+Vergil The Global Watcher
