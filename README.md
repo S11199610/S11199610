@@ -89,3 +89,92 @@ Knowledge is not a destination but a journey, and this repository is part of tha
 ---
 
 > *"The more I learn, the more I realize how much I have yet to discover."*
+
+---
+
+## Skills & Technologies
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### Software Engineering
+
+- Java
+- Python
+- C++
+- SQL
+- Git & GitHub
+- Object-Oriented Programming
+- Software Design Principles
+
+</td>
+
+<td valign="top" width="50%">
+
+### Data & AI
+
+- PostgreSQL
+- Data Warehousing
+- ETL Pipelines
+- Data Analysis
+- Machine Learning
+- Deep Learning
+- LSTM Networks
+- Transformer Models
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+### Cloud & Infrastructure Technology
+
+- Docker
+- Snowflake
+- SAP - HANA
+- Databricks
+- Dataiku
+- Tableau
+- Cloud Technologies
+- Database Administration
+- System Configuration
+
+</td>
+
+<td valign="top">
+
+### Professional Skills
+
+- Project Leadership
+- Project Management
+- Team Collaboration
+- Technical Problem Solving
+- Communication
+- Research & Development
+
+</td>
+</tr>
+</table>
+
+---
+
+## Featured Work
+
+| Project | Description |
+|----------|------------|
+| **ESME** | Emotional Support eMpathy Emulator. AI chatbot leveraging LSTM and Transformer architectures for empathetic conversational responses. 【1-22d8bd】 |
+| **Tier 3 Data Warehouse** | Enterprise data warehouse with AI/ML-powered predictive analytics and sales forecasting capabilities. 【1-22d8bd】 |
+
+---
+
+## Achievements
+
+- Research paper contributor to the **3rd International Conference on Data Analytics and Insights (ICDAI 2025)**. 【1-22d8bd】
+- Online Safety Commission Champions Programme member. 【1-22d8bd】
+- Multiple university volunteering awards and certificates. 【1-22d8bd】
+
+---
+
+> *"The more I learn, the more I realize how much I have yet to discover."*
