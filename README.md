@@ -165,7 +165,7 @@ Knowledge is not a destination but a journey, and this repository is part of tha
 | Project | Description |
 |----------|------------|
 | **ESME** | Emotional Support eMpathy Emulator. AI chatbot leveraging LSTM and Transformer architectures for empathetic conversational responses. 【1-22d8bd】 |
-| **Tier 3 Data Warehouse** | Enterprise data warehouse with AI/ML-powered predictive analytics and sales forecasting capabilities. 【1-22d8bd】 |
+| **Tier 3 Data Warehouse** | Enterprise data warehouse with AI/ML-powered predictive analytics and sales forecasting capabilities. |
 
 ---
 
