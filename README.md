@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img src="assets/header.svg" alt="Header" width="500">
+  <img src="assets/sphere.svg" alt="Header" width="500">
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@ Knowledge is not a destination but a journey, and this repository is part of tha
 > <br>
 
 <p align="center">
-  <img src="assets/header.svg" alt="Header" width="500">
+  <img src="assets/cube.svg" alt="Header" width="500">
 </p>
 
 <p align="center">

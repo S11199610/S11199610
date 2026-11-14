@@ -1,0 +1,57 @@
+<svg width="400" height="400" viewBox="-200 -200 400 400"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="cubeGlow" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffd08a"/>
+      <stop offset="100%" stop-color="#e66a00"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#glow)">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0"
+      to="360"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+    <!-- Cube faces -->
+    <path d="M0,-110 100,-55 0,0 -100,-55Z"
+          fill="url(#cubeGlow)" fill-opacity="0.16"/>
+    <path d="M-100,-55 0,0 0,110 -100,55Z"
+          fill="url(#cubeGlow)" fill-opacity="0.10"/>
+    <path d="M100,-55 0,0 0,110 100,55Z"
+          fill="url(#cubeGlow)" fill-opacity="0.20"/>
+
+    <!-- Face grid and cube outline -->
+    <g fill="none" stroke="#ff9a32" stroke-width="1.5">
+      <path d="M0,-110 100,-55 100,55 0,110 -100,55 -100,-55Z
+               M0,-110 V0
+               M-100,-55 0,0 100,-55
+               M0,0 V110"/>
+
+      <g stroke-opacity="0.7" stroke-width="1">
+        <path d="M-50,-82.5 50,-27.5
+                 M50,-82.5 -50,-27.5"/>
+        <path d="M-66.7,-36.7 V18.3
+                 M-33.3,-18.3 V73.3
+                 M-100,-18.3 0,36.7
+                 M-100,18.3 0,73.3"/>
+        <path d="M33.3,-18.3 V73.3
+                 M66.7,-36.7 V18.3
+                 M0,36.7 100,-18.3
+                 M0,73.3 100,18.3"/>
+      </g>
+    </g>
+  </g>
+</svg>
